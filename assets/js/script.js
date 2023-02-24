@@ -77,7 +77,7 @@
 let guys = ["Farhad", "Ayaz", "Joseph", "Yusif"];
 let girls = ["Aytac", "Lale", "Arzu", "Ayan"];
 //const group = [...girls, ...guys, "Ulvi"];
-//let girls_copy = [...girls];
+let girls_copy = [...girls];
 
 
 girls.push("narmin");
@@ -95,3 +95,8 @@ function nums(a, b, ...ManyMoreArgs){
 
 let numbers = [1, 2, 3, 4, 5];
 nums(...numbers);
+
+
+function myFunction(x, y, z) {}
+const args = [0, 1, 2];
+myFunction(...args);
